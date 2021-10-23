@@ -18,3 +18,10 @@ spec:
             name: music-deployment-service
             port: 
               number: 8090
+      - pathType: Prefix
+        path: /(.*)
+        backend:
+          service:
+            name: music-deployment-service
+            port: 
+              number: 8090
