@@ -19,7 +19,6 @@ spec:
       - name: spring-music
         image: yanivomc/spring-music:latest
         ports:
-            
          - containerPort: 8090
 
 ---         
